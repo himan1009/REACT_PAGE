@@ -1,13 +1,13 @@
 {
   "name": "react_router",
   "private": true,
-  "homepage": "https://himan1009.github.io/REACT_PAGE/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
+    "serve": "vite preview",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
